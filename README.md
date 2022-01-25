@@ -1,2 +1,2 @@
-# underconstruction-page
-MiMa Poker under construction page
+# MiMa Maintenance Page
+
