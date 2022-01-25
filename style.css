@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+body {
+  margin: 0;
+
+  background-color: #000;
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+}
+
+header {
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+header .header-left,
+.header-right,
+.header-right .inputs {
+  display: flex;
+  align-items: center;
+}
+
+.inputs {
+  width: 43%;
+}
+
+header .header-left .mima-logo img {
+  width: 110px;
+  height: auto;
+  margin-left: 10px;
+}
+
+header .header-left .social-networks {
+  display: flex;
+  align-self: normal;
+  border-left: 1px solid rgba(247, 149, 51, 0.314);
+  margin-left: 2rem;
+  padding-left: 2rem;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+header .header-left .social-networks img {
+  margin: 0 5px;
+}
+
+header .header-right {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+header .header-right .coming-soon {
+  display: flex;
+  align-items: center;
+}
+
+header .header-right .coming-soon img {
+  margin: 0 10px;
+}
+
+header .header-right .inputs .mail-input {
+  display: flex;
+  background: rgb(67, 71, 75);
+  color: #ffffff;
+  font-size: 0.8rem;
+  border-radius: 0.6rem;
+  padding: 0.45rem 1rem;
+  width: 100%;
+  max-width: 183px;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+header .header-right .inputs .password-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(67, 71, 75);
+  color: #ffffff;
+  font-size: 0.8rem;
+  border-top-left-radius: 0.6rem;
+  border-bottom-left-radius: 0.6rem;
+  padding: 0.45rem 1rem;
+  width: 100%;
+  max-width: 183px;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+header .header-right .inputs .reset-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(67, 71, 75);
+  color: #ffffff;
+  border-top-right-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
+  padding: 0.3rem;
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+header .header-right .buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+}
+
+header .header-right .buttons div:first-child {
+  width: 100px;
+  max-width: 14rem;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.9rem 1rem;
+  cursor: pointer;
+  background: rgb(67, 71, 75);
+  color: rgb(255, 255, 255);
+  border-radius: 0.2rem;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+
+header .header-right .buttons div:last-child {
+  width: 120px;
+  max-width: 14rem;
+  font-weight: 700;
+  padding: 0.9rem 1.2rem;
+  cursor: pointer;
+  background: rgb(247, 149, 51);
+  color: rgb(255, 255, 255);
+  border-radius: 0.2rem;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  white-space: nowrap;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+
+header .header-right .lang {
+  position: relative;
+  height: 2.8rem;
+  width: 2.8rem;
+}
+
+header .header-right .lang img {
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+}
+
+header .header-right .lang span {
+  font-size: 1rem;
+  font-weight: 700;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 1000;
+  color: #ffffff;
+}
+
+.headline {
+  background-image: url("./assets/images/Headline-mima.jpg");
+  background-position: center center;
+  display: flex;
+  width: 100%;
+  height: 40px;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+section div:first-child {
+  width: 100%;
+  padding-top: 7%;
+  text-align: center;
+  line-height: 1.5;
+}
+section div:first-child p {
+  text-align: center;
+  line-height: 2;
+}
+
+section div:first-child img {
+  display: block;
+  margin: 0 auto;
+}
+
+section div:first-child p:first-of-type {
+  font-size: 44px;
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+section div:first-child p:last-of-type {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1000px) {
+  section div:first-child img {
+    padding-top: 100px;
+    width: 80%;
+  }
+
+  header .header-right {
+    
+    justify-content: unset;
+  }
+
+  header .header-right .coming-soon,   header .header-left .social-networks, header .header-right .inputs .mail-input, header .header-right .inputs .password-input, header .header-right .inputs .reset-icon {
+      display: none;
+  }
+
+  .inputs {
+    width: 100%;
+  }
+  
+  section div:first-child p:first-of-type {
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 50px;
+  }
+
+  section div:first-child p:last-of-type {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
